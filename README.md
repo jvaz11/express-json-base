@@ -1,6 +1,6 @@
-express-json-base
+# express-json-base
 
-A barebones server using [Express 4](http://expressjs.com/).
+A barebones server using [Express 4](http://expressjs.com/). A fork of [node-js-sample](https://github.com/heroku/node-js-sample). Use this to create a simple server to respond to HTTP requests (from webhooks or any other source) with a JSON.
 
 ## Running Locally
 
