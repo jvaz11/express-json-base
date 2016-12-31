@@ -19,7 +19,7 @@ Your app should now be running on [localhost:5000](http://localhost:5000/).
 
 ## Deploying to Heroku
 
-```
+```sh
 heroku create my-project-name # replace "my-project-name" with whatever you want
 git push heroku master
 heroku open # your app will open in a new browser window
