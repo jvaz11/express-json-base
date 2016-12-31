@@ -10,7 +10,7 @@ Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https
 cd my-projects # cd into the directory you want to create the server in
 git clone https://github.com/jvaz11/express-json-base.git
 mv express-json-base my-project-name # [optional] rename your project from express-json-base to whatever you want 
-cd express-json-base
+cd my-project-name # cd into your project
 npm install
 npm start
 ```
@@ -20,7 +20,7 @@ Your app should now be running on [localhost:5000](http://localhost:5000/).
 ## Deploying to Heroku
 
 ```
-heroku create
+heroku create my-project-name # replace "my-project-name" with whatever you want
 git push heroku master
-heroku open
+heroku open # your app will open in a new browser window
 ```
